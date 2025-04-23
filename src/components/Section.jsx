@@ -1,3 +1,13 @@
+import pic1 from '../assets/images/about-us-image.jpg';
+import pic2 from '../assets/images/happyclient-01.jpg';
+import pic3 from '../assets/images/happyclient-01.jpg';
+import pic4 from '../assets/images/happyclient-01.jpg';
+import pic5 from '../assets/images/happyclient-01.jpg';
+
+
+
+
+
 function Section(){
     return(
         <>
@@ -16,7 +26,7 @@ function Section(){
                         </div>
                     </div>
                     <div className="col-lg-5 align-self-center">
-                        <img src="src/assets/images/about-us-image.jpg" alt=""/>
+                        <img src={pic1}/>
                     </div>
                 </div>
             </div>
@@ -99,7 +109,7 @@ function Section(){
                                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                                                         </div>
                                                         <div className="col-lg-5 align-self-center">
-                                                            <img src="src/assets/images/happyclient-01.jpg" alt=""/>
+                                                            <img src={pic2} alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -120,7 +130,7 @@ function Section(){
                                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                                                         </div>
                                                         <div className="col-lg-5 align-self-center">
-                                                            <img src="src/assets/images/happyclient-01.jpg" alt=""/>
+                                                            <img src={pic3} alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -141,7 +151,7 @@ function Section(){
                                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                                                         </div>
                                                         <div className="col-lg-5 align-self-center">
-                                                            <img src="src/assets/images/happyclient-01.jpg" alt=""/>
+                                                            <img src={pic4} alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -162,7 +172,7 @@ function Section(){
                                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
                                                         </div>
                                                         <div className="col-lg-5 align-self-center">
-                                                            <img src="src/assets/images/happyclient-01.jpg" alt=""/>
+                                                            <img src={pic5} alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>

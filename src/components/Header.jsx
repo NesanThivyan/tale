@@ -1,4 +1,4 @@
-
+import image1 from '../assets/images/logo.png'
 
 
 function Header(){
@@ -37,7 +37,7 @@ function Header(){
                     <div className="col-12">
                         <nav className="main-nav">
                             <a href="index.html" className="logo">
-                                <img src="src/assets/images/logo.png" alt="" style={{ maxWidth: "112px" }} />
+                                <img src={image1} alt="" style={{ maxWidth: "112px" }} />
                             </a>
                             <ul className="nav">
                                 <li><a href="index.html">Home</a></li>
