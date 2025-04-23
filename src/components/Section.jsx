@@ -18,7 +18,7 @@ function Section(){
                         <div className="caption header-text">
                             <h6>SEO DIGITAL AGENCY</h6>
                             <div className="line-dec"></div>
-                            <h4>Discover More <em>About Us</em></h4>
+                            ents 2           <h4>Discover More <em>About Us</em></h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore.</p>
                             <div className="main-button"><a href="#">Discover More</a></div>
                             <span>or</span>
